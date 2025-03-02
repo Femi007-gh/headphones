@@ -1,0 +1,139 @@
+Below is the complete HTML and CSS code again—with image source links you can copy and use immediately. These links pull sample images from Unsplash so you can download them directly to your PC if needed.
+
+
+---
+
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EchoEdge Headphones</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center justify-content-center text-white text-center">
+    <div class="container">
+      <h1>Elevate Your Sound Experience</h1>
+      <p>Crystal clear audio, immersive sound, and cutting-edge design. Hear more, feel more.</p>
+      <div class="buttons">
+        <button class="btn btn-primary">Crystal-clear audio</button>
+        <button class="btn btn-outline-light">Noise cancellation</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Section -->
+  <section class="product text-center py-5">
+    <div class="container">
+      <h2>EchoSphere Pro XY</h2>
+      <!-- Headphones Image -->
+      <img src="https://source.unsplash.com/featured/?headphones" alt="Headphones" class="img-fluid" />
+      <p class="price">$120.00</p>
+      <button class="btn btn-dark">Order Now</button>
+      <div class="features mt-4 row">
+        <div class="col-md-3">Active Noise Cancellation</div>
+        <div class="col-md-3">Bluetooth 5.2 Connectivity</div>
+        <div class="col-md-3">High-Definition Sound Drivers</div>
+        <div class="col-md-3">30-Hour Battery Life</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase Section -->
+  <section class="showcase text-center py-5">
+    <div class="container">
+      <h2>See the EchoEdge in Action</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <!-- Showcase Image 1 -->
+          <img src="https://source.unsplash.com/featured/?person,headphones" alt="User with Headphones" class="img-fluid" />
+        </div>
+        <div class="col-md-4">
+          <!-- Showcase Image 2 -->
+          <img src="https://source.unsplash.com/featured/?music" alt="User with Headphones" class="img-fluid" />
+        </div>
+        <div class="col-md-4">
+          <!-- Showcase Image 3 -->
+          <img src="https://source.unsplash.com/featured/?sound" alt="User with Headphones" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials text-center py-5">
+    <div class="container">
+      <h2>What Our Users Are Saying</h2>
+      <p>"EchoEdge completely changed the way I experience audio. Best purchase ever!"</p>
+      <h5>- Happy Customer</h5>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-white py-4">
+    <p>Subscribe to our newsletter</p>
+    <input type="email" placeholder="Enter your email" class="form-control d-inline w-auto" />
+    <button class="btn btn-light">Subscribe</button>
+  </footer>
+
+</body>
+</html>
+
+
+---
+
+styles.css
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.product {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.showcase img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.testimonials {
+  background-color: #e2e8f0;
+  padding: 50px 0;
+}
+
+footer {
+  background: #0f172a;
+  color: white;
+  padding: 20px 0;
+}

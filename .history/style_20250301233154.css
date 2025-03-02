@@ -1,0 +1,170 @@
+/* Reset and Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, #1a1a2e, #16213e);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin: 15px 0;
+}
+
+.hero-image img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+/* Product Section */
+.product-section {
+  background: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.product img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.product-info h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.color-options {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.order-btn {
+  background: #16213e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.features-container {
+  max-width: 60%;
+}
+
+.features h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Reviews Section */
+.reviews {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.review p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.rating span {
+  font-size: 1.5rem;
+  color: gold;
+}
+
+/* Footer */
+.footer {
+  background: #1a1a2e;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.social-icons i {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

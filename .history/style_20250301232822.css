@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.search-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 60px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Product Section */
+.product-section {
+  text-align: center;
+  padding: 50px;
+  background: white;
+}
+
+
+
+.product-info {
+  margin-top: 20px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.order-btn {
+  background-color: #1e293b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background: #f1f5f9;
+}
+
+.feature {
+  max-width: 300px;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Reviews Section */
+.reviews {
+  text-align: center;
+  padding: 50px;
+  background: white;
+}
+
+.rating span {
+  color: gold;
+  font-size: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .social-icons i {
+  margin: 10px;
+  font-size: 20px;
+}
