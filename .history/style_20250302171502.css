@@ -1,0 +1,215 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body{
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whole-div{
+   background-color: white;
+   width: 100%;
+   max-width: 600px;
+   height: 100%;
+   min-height: 3100px;
+   margin: auto;
+}
+.hp1{
+  width: 100%;
+  max-width: 600px;
+  height: 530px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -520px;
+  padding: 10px 20px;
+  font-family: Arial;
+  width: 100%;
+}
+.my-app {
+  font-weight: bold;
+  color: #fff;
+}
+.search-bar input {
+  padding: 5px;
+  border: 1px solid #fff;
+  background-color: rgb(72, 72, 234);
+}
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.shop {
+  background-color: rgb(74, 74, 234);
+  color: white;
+  padding: 5px 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: white;
+  cursor: pointer;
+}
+.head1{
+color: blue;
+margin-left: 30px;
+}
+.para1{
+color: #fff;
+width: 300px;
+margin-left: 30px;
+}
+.para2{
+color: #fff;
+margin-left: 30px;
+margin-top: 70px;
+}
+.para3{
+color: #fff;
+margin-left: 30px;  
+}
+
+.div1{
+background-color: #fff;
+width: 100%;
+max-width: 600px;
+height: 500px;
+margin-top: 100px;          
+}
+.hp2{
+width: 150px;
+height: 180px;
+margin-top: 50px;
+margin-left: 30px;
+}
+.head2{
+margin-top: -460px;
+margin-left: 250px;
+}
+.lorem1{
+margin-left: 250px;
+width: 350px;
+}
+.group1{
+background-color: white;
+width: 80px;
+height: 30px;
+margin-left: 250px;
+ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.dot1{
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
+  margin-top: 4px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+.black{
+margin-left: 25px;
+margin-top: -16px;
+font-size: 13px;
+}
+.group2{
+background-color: white;
+width: 80px;
+height: 30px;
+margin-left: 335px;
+margin-top: -30px;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.dot2{
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
+  margin-top: 4px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+.blue{
+margin-left: 25px;
+margin-top: -16px;
+font-size: 13px;
+}
+.group3{
+background-color: white;
+width: 80px;
+height: 30px;
+margin-left: 420px;
+margin-top: -30px;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.dot3{
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
+  margin-top: 4px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+.purple{
+margin-left: 25px;
+margin-top: -16px;
+font-size: 13px;
+}
+.lorem2{
+margin-left: 200px;
+}
+.dollar{
+margin-left: 200px;
+margin-top: 5px;
+}
+.but1{
+margin-left: 470px;
+margin-top: -60px;
+padding: 9px 9px;
+padding-left: 20px;
+padding-right: 25px;
+background-color: #fff;
+}
+.subscribe-container {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 400px;
+}
+input {
+  background: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  width: 100%;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+button:hover {
+  background: white;
+  color: black;
+}

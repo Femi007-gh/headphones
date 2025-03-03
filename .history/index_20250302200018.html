@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Page Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow-x: hidden;
+        }
+        .whole-div {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .search-bar input {
+            padding: 5px;
+        }
+        .shop {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+        .head1 {
+            font-size: 2em;
+            margin-top: 20px;
+        }
+        .para1, .para2, .para3 {
+            margin: 10px 0;
+        }
+        .div1, .div2, .div4 {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: lightgray;
+        }
+        .div5 {
+            width: 100%;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="whole-div">
+        <img src="your-image-1.jpg" class="hp1" alt="Header Image">
+        <nav class="navbar">
+            <div class="my-app">My App</div>
+            <div class="search-bar"><input type="text" placeholder="Search..."></div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <button class="shop">Shop</button>
+        </nav>
+        <h1 class="head1">Welcome</h1>
+        <p class="para1">This is a sample paragraph for the website content.</p>
+        <p class="para2">Another section of text goes here.</p>
+        <p class="para3">More content displayed on the page.</p>
+        
+        <div class="div1">
+            <img src="your-image-2.jpg" class="hp2" alt="Product Image">
+            <h2 class="head2">Product Title</h2>
+            <p class="lorem1">Product description goes here.</p>
+        </div>
+        
+        <div class="div2">
+            <img src="your-image-3.jpg" class="person" alt="Person Image">
+            <p class="lorem3">Feature 1</p>
+            <p class="lorem4">Feature 2</p>
+        </div>
+        
+        <img src="your-image-4.jpg" class="hp4-4" alt="Background Image">
+        <p class="lorem7">More descriptions here</p>
+        
+        <div class="div4">
+            <img src="your-image-5.jpg" class="hp6-6" alt="Category">
+            <h3 class="head3">Another Section</h3>
+            <p class="lorem10">Details about this section</p>
